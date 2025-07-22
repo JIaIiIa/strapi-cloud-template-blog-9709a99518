@@ -426,6 +426,7 @@ export interface ApiEmployeEmploye extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Data: Schema.Attribute.Date;
     Description: Schema.Attribute.Text;
     Experience: Schema.Attribute.Integer;
     Jobtitle: Schema.Attribute.String;
