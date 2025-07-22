@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_one_names",
+  "info": {
+    "displayName": "Name",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

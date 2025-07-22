@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employes",
+  "info": {
+    "singularName": "employe",
+    "pluralName": "employes",
+    "displayName": "Employe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Jobtitle": {
+      "type": "string"
+    },
+    "Experience": {
+      "type": "integer"
+    },
+    "Salary": {
+      "type": "biginteger"
+    },
+    "Price": {
+      "type": "biginteger"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ClassCatch": {
+      "type": "boolean",
+      "default": false
+    },
+    "Rate": {
+      "type": "enumeration",
+      "enum": [
+        "rate-1",
+        "rate-2",
+        "rate-3",
+        "rate-4",
+        "rate-5"
+      ]
+    }
+  }
+}
